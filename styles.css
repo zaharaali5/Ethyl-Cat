@@ -18,15 +18,16 @@ html {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    color: var(--text-light);
-    background-color: var(--primary-color);
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #000000;
+    background-color: #f5f5dc;
     line-height: 1.6;
+    text-transform: lowercase;
 }
 
 /* Navigation */
 .navbar {
-    background-color: var(--primary-color);
+    background-color: #f5f5dc;
     padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -46,7 +47,7 @@ body {
 .nav-logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: white;
+    color: #000000;
     letter-spacing: 2px;
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 .nav-link {
-    color: var(--text-light);
+    color: #000000;
     text-decoration: none;
     font-weight: 600;
     font-size: 0.9rem;
@@ -66,13 +67,13 @@ body {
 }
 
 .nav-link:hover {
-    color: white;
+    color: #333333;
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--bg-dark) 100%);
-    color: var(--text-light);
+    background: #f5f5dc;
+    color: #000000;
     padding: 20rem 2rem;
     text-align: center;
     position: relative;
@@ -104,21 +105,21 @@ body {
     font-weight: bold;
     margin-bottom: 1rem;
     letter-spacing: 4px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     animation: slideDown 0.8s ease-out;
 }
 
 .hero-subtitle {
     font-size: 2rem;
     margin-bottom: 0;
-    color: white;
+    color: #000000;
     letter-spacing: 2px;
 }
 
 .cta-button {
     display: inline-block;
-    background-color: white;
-    color: var(--primary-color);
+    background-color: #000000;
+    color: white;
     padding: 1rem 2.5rem;
     text-decoration: none;
     font-weight: bold;
@@ -126,12 +127,12 @@ body {
     border-radius: 5px;
     transition: all 0.3s ease;
     letter-spacing: 1px;
-    border: 2px solid white;
+    border: 2px solid #000000;
 }
 
 .cta-button:hover {
     background-color: transparent;
-    color: white;
+    color: #000000;
     transform: scale(1.05);
 }
 
@@ -151,7 +152,7 @@ body {
     max-width: 1200px;
     margin: 4rem auto;
     padding: 3rem 2rem;
-    background-color: var(--primary-color);
+    background-color: #f5f5dc;
 }
 
 .tour-section h2 {
@@ -159,7 +160,7 @@ body {
     text-align: center;
     margin-bottom: 3rem;
     letter-spacing: 2px;
-    color: white;
+    color: #000000;
 }
 
 .tour-container {
@@ -171,7 +172,7 @@ body {
 
 .tour-card {
     background: white;
-    border-left: 5px solid white;
+    border-left: 5px solid #000000;
     padding: 2rem;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -186,7 +187,7 @@ body {
 .tour-date {
     font-size: 2rem;
     font-weight: bold;
-    color: var(--primary-color);
+    color: #000000;
     margin-bottom: 0.5rem;
 }
 
@@ -201,7 +202,7 @@ body {
 .tour-event {
     font-size: 1.2rem;
     font-weight: bold;
-    color: var(--primary-color);
+    color: #000000;
     margin-bottom: 0.5rem;
 }
 
@@ -235,31 +236,31 @@ body {
 }
 
 .tickets-btn {
-    background-color: var(--primary-color);
+    background-color: #000000;
     color: white;
-    border: 2px solid var(--primary-color);
+    border: 2px solid #000000;
 }
 
 .tickets-btn:hover {
     background-color: transparent;
-    color: var(--primary-color);
+    color: #000000;
 }
 
 .rsvp-btn {
-    background-color: var(--primary-color);
+    background-color: #000000;
     color: white;
-    border: 2px solid var(--primary-color);
+    border: 2px solid #000000;
 }
 
 .rsvp-btn:hover {
     background-color: transparent;
-    color: var(--primary-color);
+    color: #000000;
 }
 
 /* Newsletter Section */
 .newsletter {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--bg-dark) 100%);
-    color: var(--text-light);
+    background: #f5f5dc;
+    color: #000000;
     padding: 4rem 2rem;
     text-align: center;
 }
@@ -268,7 +269,7 @@ body {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     letter-spacing: 2px;
-    color: white;
+    color: #000000;
 }
 
 .newsletter p {
@@ -277,7 +278,7 @@ body {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    color: white;
+    color: #000000;
 }
 
 .newsletter-form {
@@ -298,8 +299,8 @@ body {
 
 .submit-btn {
     padding: 0.8rem 2rem;
-    background-color: white;
-    color: var(--primary-color);
+    background-color: #000000;
+    color: white;
     border: none;
     border-radius: 3px;
     font-weight: bold;
@@ -309,7 +310,7 @@ body {
 }
 
 .submit-btn:hover {
-    background-color: #e0e0e0;
+    background-color: #333333;
     transform: scale(1.05);
 }
 
@@ -322,7 +323,7 @@ body {
     max-width: 1200px;
     margin: 4rem auto;
     padding: 3rem 2rem;
-    background-color: var(--primary-color);
+    background-color: #f5f5dc;
 }
 
 .about-section h2 {
@@ -330,18 +331,18 @@ body {
     text-align: center;
     margin-bottom: 3rem;
     letter-spacing: 2px;
-    color: white;
+    color: #000000;
 }
 
 .about-content {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.05);
     padding: 2rem;
     border-radius: 5px;
-    border-left: 4px solid white;
+    border-left: 4px solid #000000;
 }
 
 .about-content p {
-    color: white;
+    color: #000000;
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 1.5rem;
@@ -356,7 +357,7 @@ body {
     max-width: 1200px;
     margin: 4rem auto;
     padding: 3rem 2rem;
-    background-color: var(--primary-color);
+    background-color: #f5f5dc;
 }
 
 .music-section h2 {
@@ -364,18 +365,18 @@ body {
     text-align: center;
     margin-bottom: 3rem;
     letter-spacing: 2px;
-    color: white;
+    color: #000000;
 }
 
 .music-content {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.05);
     padding: 2rem;
     border-radius: 5px;
-    border-left: 4px solid white;
+    border-left: 4px solid #000000;
 }
 
 .music-content p {
-    color: white;
+    color: #000000;
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 1.5rem;
@@ -389,7 +390,7 @@ body {
     max-width: 1200px;
     margin: 4rem auto;
     padding: 3rem 2rem;
-    background-color: var(--primary-color);
+    background-color: #f5f5dc;
 }
 
 .songs-section h2 {
@@ -397,7 +398,7 @@ body {
     text-align: center;
     margin-bottom: 3rem;
     letter-spacing: 2px;
-    color: white;
+    color: #000000;
 }
 
 .songs-grid {
@@ -410,7 +411,7 @@ body {
 .song-item h3 {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
-    color: white;
+    color: #000000;
 }
 
 .song-list {
@@ -423,7 +424,7 @@ body {
 .song-list li {
     padding: 0.75rem;
     background-color: #f9f9f9;
-    border-left: 3px solid var(--primary-color);
+    border-left: 3px solid #000000;
     padding-left: 1rem;
     transition: background-color 0.3s ease;
 }
@@ -437,7 +438,7 @@ body {
     max-width: 1200px;
     margin: 4rem auto;
     padding: 3rem 2rem;
-    background-color: var(--primary-color);
+    background-color: #f5f5dc;
 }
 
 .band-section h2 {
@@ -445,13 +446,13 @@ body {
     text-align: center;
     margin-bottom: 1rem;
     letter-spacing: 2px;
-    color: white;
+    color: #000000;
 }
 
 .band-intro {
     text-align: center;
     font-size: 1.1rem;
-    color: white;
+    color: #000000;
     max-width: 600px;
     margin: 0 auto 3rem;
     line-height: 1.8;
@@ -509,7 +510,7 @@ body {
 
 .member h3 {
     font-size: 1.3rem;
-    color: var(--primary-color);
+    color: #000000;
     margin-bottom: 0.5rem;
 }
 
@@ -553,7 +554,7 @@ body {
     max-width: 800px;
     margin: 4rem auto;
     padding: 3rem 2rem;
-    background: var(--primary-color);
+    background: #f5f5dc;
     border-radius: 5px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -563,7 +564,7 @@ body {
     text-align: center;
     margin-bottom: 2rem;
     letter-spacing: 2px;
-    color: white;
+    color: #000000;
 }
 
 .contact-info {
@@ -573,27 +574,27 @@ body {
 }
 
 .contact-item {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.05);
     padding: 2rem;
     border-radius: 5px;
-    border-left: 4px solid white;
+    border-left: 4px solid #000000;
     text-align: center;
 }
 
 .contact-item h3 {
     font-size: 1.3rem;
-    color: white;
+    color: #000000;
     margin-bottom: 1rem;
 }
 
 .contact-item p {
-    color: white;
+    color: #000000;
     font-size: 1rem;
     margin-bottom: 0.5rem;
 }
 
 .contact-item a {
-    color: white;
+    color: #000000;
     text-decoration: none;
     transition: opacity 0.3s ease;
 }
@@ -604,7 +605,7 @@ body {
 
 .contact-section > p {
     text-align: center;
-    color: white;
+    color: #000000;
     margin-bottom: 2rem;
     font-size: 1.1rem;
 }
@@ -626,7 +627,7 @@ body {
     padding: 0.8rem;
     border: 1px solid #ddd;
     border-radius: 3px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Georgia', 'Times New Roman', serif;
     font-size: 1rem;
     transition: border-color 0.3s ease;
 }
@@ -634,14 +635,14 @@ body {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: var(--primary-color);
+    border-color: #000000;
     background-color: #f0f0f0;
 }
 
 /* Footer */
 .footer {
-    background-color: var(--primary-color);
-    color: var(--text-light);
+    background-color: #f5f5dc;
+    color: #000000;
     padding: 3rem 2rem 1rem;
     margin-top: 4rem;
 }
@@ -656,7 +657,7 @@ body {
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
     letter-spacing: 2px;
-    color: white;
+    color: #000000;
 }
 
 .footer-links {
@@ -668,7 +669,7 @@ body {
 }
 
 .footer-links a {
-    color: var(--text-light);
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
     letter-spacing: 1px;
@@ -676,7 +677,7 @@ body {
 }
 
 .footer-links a:hover {
-    color: white;
+    color: #333333;
 }
 
 .social-links {
@@ -687,14 +688,14 @@ body {
 }
 
 .social-link {
-    color: var(--text-light);
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
     font-size: 0.9rem;
 }
 
 .social-link:hover {
-    color: white;
+    color: #333333;
 }
 
 .footer-bottom {
