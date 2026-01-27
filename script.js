@@ -1,3 +1,13 @@
+/**
+ * Ethyl Cat Website
+ * Created & Developed by: Zahara Ali
+ * © 2026 Zahara Ali & Ethyl Cat - All Rights Reserved
+ */
+
+// Display creator signature in console
+console.log('%cWebsite Created & Designed by: Zahara Ali', 'color: #020e1a; font-weight: bold;');
+console.log('%c© 2026 Zahara Ali & Ethyl Cat - All Rights Reserved', 'color: #020e1a; font-weight: bold;');
+
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
